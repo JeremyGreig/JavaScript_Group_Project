@@ -33,6 +33,12 @@
   display: flex;
 }
 
+#note-label {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
 #note-entry {
   flex-grow: 1;
 }
@@ -47,4 +53,8 @@
   flex: 1 1 40%;
   margin: 5px;
   box-sizing: border-box;
+}
+
+#add-note {
+  margin-bottom: 10px;
 }
