@@ -5,3 +5,46 @@
 /* expense tracker */
 
 /* note taker */
+#note-taker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.note-taker-heading {
+  text-align: center;
+}
+
+.note-taker-heading h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.note-taker-heading h2 {
+  color: green;
+  margin-bottom: 10px;
+}
+
+.note-input {
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+#note-entry {
+  flex-grow: 1;
+}
+
+.note-display {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.note-display > div {
+  flex: 1 1 40%;
+  margin: 5px;
+  box-sizing: border-box;
+}
